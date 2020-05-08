@@ -1,0 +1,26 @@
+.title{
+	height: 50px;
+	width: 310px;
+}
+
+.ft1{
+	font-family: 'Oswald', sans-serif;
+}
+
+.ft2{
+	font-family: 'Indie Flower', cursive;
+}
+
+.btn{
+	font-family: 'Oswald', sans-serif;
+	height: 50px;
+	width: 220px;
+}
+
+.icon{
+	/*position: absolute;
+	font-size: 36px;
+	padding: 10px;*/
+	/*top: 200px;
+	left: 170px;*/
+}

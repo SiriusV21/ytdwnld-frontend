@@ -3,6 +3,7 @@ import 'tachyons';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './App.css';
 import Home from'./Components/Home/Home.js';
+import LandPage from './Components/Home/LandPage.js';
 import Downloader from'./Components/Downloader/Downloader.js';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <div className= 'App'>
               <Switch>
                 <Route exact path='/'>
-                  <Home />
+                  <LandPage />
                 </Route>
                 <Route path='/Downloader'>
                   <Downloader onClick={onClick} onChange={onChange}/>

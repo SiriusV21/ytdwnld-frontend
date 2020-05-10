@@ -6,13 +6,13 @@ const CardList = () => {
   return (
     <div className="flex center mt4">      
       {
-        List.map((card) => {
+        List.map((card, i) => {
         return (
-          <div className="ml4 mr4">
+          <div key={i} className="ml4 mr4">
             <Card 
-            link={card.link} 
-            title={card.title} 
-            description={card.description}
+              link={card.link} 
+              title={card.title} 
+              description={card.description}
             />
           </div>
           );
